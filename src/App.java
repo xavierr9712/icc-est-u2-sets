@@ -2,11 +2,21 @@ import controllers.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Sets sets = new Sets();
-        runHashSet(sets);
-        runLinkedHashSet(sets);
-        runTreeSet(sets);
-        runTreeSetConComparador(sets);
+        // Sets sets = new Sets();
+        // runHashSet(sets);
+        // runLinkedHashSet(sets);
+        // runTreeSet(sets);
+        // runTreeSetConComparador(sets);
+        ContactoControllers contacto = new ContactoControllers();
+        // System.out.println("Agenda Ordenada por Apellido y Nombre");
+        // contacto.runTreeContacto();
+        System.out.println("-----------------------------------");
+        System.out.println("Agenda Ordenada por Apellido, Nombre y Telefono");
+        contacto.runTreeContactoTelefonos();
+        System.out.println("-----------------------------------");
+        System.out.println("Agenda Ordenada por hashCode ");
+        contacto.runTreeContactoContactoHash();
+         System.out.println("-----------------------------------");
 
     }
     public static void runHashSet(Sets sets ) {

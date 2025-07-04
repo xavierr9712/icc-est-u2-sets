@@ -7,16 +7,20 @@ public class App {
         // runLinkedHashSet(sets);
         // runTreeSet(sets);
         // runTreeSetConComparador(sets);
-        ContactoControllers contacto = new ContactoControllers();
+        //ContactoControllers contacto = new ContactoControllers();
         // System.out.println("Agenda Ordenada por Apellido y Nombre");
         // contacto.runTreeContacto();
-        System.out.println("-----------------------------------");
-        System.out.println("Agenda Ordenada por Apellido, Nombre y Telefono");
-        contacto.runTreeContactoTelefonos();
-        System.out.println("-----------------------------------");
-        System.out.println("Agenda Ordenada por hashCode ");
-        contacto.runTreeContactoContactoHash();
-         System.out.println("-----------------------------------");
+        // System.out.println("-----------------------------------");
+        // System.out.println("Agenda Ordenada por Apellido, Nombre y Telefono");
+        // contacto.runTreeContactoTelefonos();
+        // System.out.println("-----------------------------------");
+        // System.out.println("Agenda Ordenada por hashCode ");
+        // contacto.runTreeContactoContactoHash();
+        //  System.out.println("-----------------------------------");
+
+        Ejercicios ejercicios = new Ejercicios();
+        
+       
 
     }
     public static void runHashSet(Sets sets ) {
